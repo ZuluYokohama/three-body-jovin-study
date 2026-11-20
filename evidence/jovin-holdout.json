@@ -1,0 +1,61 @@
+{
+  "project_id": "three-body-held-out-confirmation",
+  "status": "passed",
+  "passed": true,
+  "acceptance_status": "passed",
+  "file_count": 17,
+  "source_manifest_sha256": "f666e2b25be5577fd03d4feec67e23281eff7b0cd9385705914fede7c5b2fea3",
+  "receipt_id": "20261119T231443Z-6e72381b031e",
+  "receipt_sha256": "a6e30d1ba99ca387d3f57fe16f8dcc2e3487255126b5c39628358f8ffcd5da1b",
+  "ast_receipt_id": "20261119T231421Z-e4dc3888fe09",
+  "native_receipt_id": "20261119T231437Z-c1f26fe19d7e",
+  "trace_receipt_id": "20261119T231439Z-0cc227a1e467",
+  "gates": [
+    {
+      "id": "baseline_binding",
+      "status": "passed"
+    },
+    {
+      "id": "inventory",
+      "status": "passed"
+    },
+    {
+      "id": "native_ast",
+      "status": "passed",
+      "integrity": "compiler_static_analysis",
+      "cpp_status": "passed",
+      "language_status": {
+        "cpp": "passed"
+      }
+    },
+    {
+      "id": "native_cpu",
+      "status": "passed",
+      "integrity": "native_exit_checks"
+    },
+    {
+      "id": "network_trace",
+      "status": "passed",
+      "integrity": "kernel_syscall_trace"
+    },
+    {
+      "id": "process_trace",
+      "status": "passed",
+      "integrity": "kernel_syscall_trace"
+    },
+    {
+      "id": "python_ast",
+      "status": "passed"
+    }
+  ],
+  "receipt_chain": {
+    "valid": true,
+    "count": 12,
+    "head_sha256": "a6e30d1ba99ca387d3f57fe16f8dcc2e3487255126b5c39628358f8ffcd5da1b"
+  },
+  "local_evidence_sha256": {
+    "project.json": "1cc555f53ce10ebabdd67c9e54fce6d9c29427722ca559d57fd3cd1fe36e5eff",
+    "chain.json": "b3f2ec90deaad677ec7595576167426685fcf37670f424d8b75eb42065e03a4f"
+  },
+  "scope": "Filtered identifiers and statuses. Native store and traces remain local."
+}

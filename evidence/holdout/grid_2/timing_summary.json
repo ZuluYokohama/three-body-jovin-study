@@ -1,0 +1,741 @@
+{
+  "status": "passed",
+  "shift": [
+    -0.25,
+    0.125
+  ],
+  "work_gap": 0.0004433617366987908,
+  "adaptive": {
+    "work": 1562705896,
+    "trajectories": 69880,
+    "wall_seconds": 46.63743169998634,
+    "solver_seconds": 43.96213060000446,
+    "filter_seconds": 0.7147915000095963,
+    "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+    "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+    "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199"
+  },
+  "uniform": {
+    "work": 1562013052,
+    "trajectories": 78884,
+    "wall_seconds": 20.961599600006593,
+    "solver_seconds": 19.20360410003923,
+    "filter_seconds": 0.0,
+    "schedule_sha256": "",
+    "result_sha256": "",
+    "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc"
+  },
+  "calibration_uniform_evaluations": 1721434228,
+  "warmup": {
+    "adaptive": {
+      "work": 1562705896,
+      "trajectories": 69880,
+      "wall_seconds": 46.731945199979236,
+      "solver_seconds": 44.05158330005361,
+      "filter_seconds": 0.6905399000097532,
+      "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+      "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+      "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+      "matches_calibration": true,
+      "gpu_before": {
+        "device_metrics": {
+          "name": "NVIDIA GeForce RTX 5070",
+          "driver_version": "617.42",
+          "pstate": "P0",
+          "temperature.gpu": "44",
+          "clocks.current.sm": "2872",
+          "clocks.current.memory": "14001",
+          "power.draw": "44.01",
+          "utilization.gpu": "0",
+          "memory.used": "21"
+        },
+        "compute_process_count": 0
+      },
+      "gpu_after": {
+        "device_metrics": {
+          "name": "NVIDIA GeForce RTX 5070",
+          "driver_version": "617.42",
+          "pstate": "P1",
+          "temperature.gpu": "46",
+          "clocks.current.sm": "2595",
+          "clocks.current.memory": "14001",
+          "power.draw": "38.45",
+          "utilization.gpu": "0",
+          "memory.used": "21"
+        },
+        "compute_process_count": 0
+      }
+    },
+    "uniform": {
+      "work": 1562013052,
+      "trajectories": 78884,
+      "wall_seconds": 22.36569330000202,
+      "solver_seconds": 20.906525400001556,
+      "filter_seconds": 0.0,
+      "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+      "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+      "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+      "matches_calibration": true,
+      "gpu_before": {
+        "device_metrics": {
+          "name": "NVIDIA GeForce RTX 5070",
+          "driver_version": "617.42",
+          "pstate": "P0",
+          "temperature.gpu": "45",
+          "clocks.current.sm": "2587",
+          "clocks.current.memory": "14001",
+          "power.draw": "38.23",
+          "utilization.gpu": "0",
+          "memory.used": "21"
+        },
+        "compute_process_count": 0
+      },
+      "gpu_after": {
+        "device_metrics": {
+          "name": "NVIDIA GeForce RTX 5070",
+          "driver_version": "617.42",
+          "pstate": "P0",
+          "temperature.gpu": "48",
+          "clocks.current.sm": "2872",
+          "clocks.current.memory": "14001",
+          "power.draw": "45.04",
+          "utilization.gpu": "0",
+          "memory.used": "21"
+        },
+        "compute_process_count": 0
+      }
+    }
+  },
+  "pairs": [
+    {
+      "pair": 1,
+      "order": [
+        "uniform",
+        "adaptive"
+      ],
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.36373260000255,
+        "solver_seconds": 20.871099300013157,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "48",
+            "clocks.current.sm": "2872",
+            "clocks.current.memory": "14001",
+            "power.draw": "45.04",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "49",
+            "clocks.current.sm": "2872",
+            "clocks.current.memory": "14001",
+            "power.draw": "45.87",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.77832979999948,
+        "solver_seconds": 44.080310399935115,
+        "filter_seconds": 0.7444336000189651,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "49",
+            "clocks.current.sm": "2872",
+            "clocks.current.memory": "14001",
+            "power.draw": "45.87",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "50",
+            "clocks.current.sm": "2557",
+            "clocks.current.memory": "14001",
+            "power.draw": "39.72",
+            "utilization.gpu": "7",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.47807890310788304
+    },
+    {
+      "pair": 2,
+      "order": [
+        "adaptive",
+        "uniform"
+      ],
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.863834699994186,
+        "solver_seconds": 44.17991419995087,
+        "filter_seconds": 0.6855454000178725,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "50",
+            "clocks.current.sm": "2557",
+            "clocks.current.memory": "14001",
+            "power.draw": "39.72",
+            "utilization.gpu": "7",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P1",
+            "temperature.gpu": "51",
+            "clocks.current.sm": "2595",
+            "clocks.current.memory": "14001",
+            "power.draw": "40.01",
+            "utilization.gpu": "7",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.457706399989547,
+        "solver_seconds": 20.98171409999486,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P1",
+            "temperature.gpu": "51",
+            "clocks.current.sm": "2595",
+            "clocks.current.memory": "14001",
+            "power.draw": "40.01",
+            "utilization.gpu": "7",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "53",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "46.86",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.4792118814808028
+    },
+    {
+      "pair": 3,
+      "order": [
+        "uniform",
+        "adaptive"
+      ],
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.473295199975837,
+        "solver_seconds": 20.999107700015884,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "53",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "46.86",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "54",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "47.56",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.93851410000934,
+        "solver_seconds": 44.26282590004848,
+        "filter_seconds": 0.7131411999871489,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "54",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "47.56",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "54",
+            "clocks.current.sm": "2572",
+            "clocks.current.memory": "14001",
+            "power.draw": "40.74",
+            "utilization.gpu": "1",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.4787815641563175
+    },
+    {
+      "pair": 4,
+      "order": [
+        "adaptive",
+        "uniform"
+      ],
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.96389319997979,
+        "solver_seconds": 44.30081420004717,
+        "filter_seconds": 0.675779200042598,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "54",
+            "clocks.current.sm": "2580",
+            "clocks.current.memory": "14001",
+            "power.draw": "40.20",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "55",
+            "clocks.current.sm": "2580",
+            "clocks.current.memory": "13801",
+            "power.draw": "41.24",
+            "utilization.gpu": "6",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.474166899977718,
+        "solver_seconds": 20.98469330003718,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "55",
+            "clocks.current.sm": "2580",
+            "clocks.current.memory": "13801",
+            "power.draw": "41.24",
+            "utilization.gpu": "6",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "53",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "47.94",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.4785413935824934
+    },
+    {
+      "pair": 5,
+      "order": [
+        "uniform",
+        "adaptive"
+      ],
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.53287390002515,
+        "solver_seconds": 21.023706700012553,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "53",
+            "clocks.current.sm": "2865",
+            "clocks.current.memory": "14001",
+            "power.draw": "47.94",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "50",
+            "clocks.current.sm": "2872",
+            "clocks.current.memory": "14001",
+            "power.draw": "46.83",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.95605629999773,
+        "solver_seconds": 44.21547090006061,
+        "filter_seconds": 0.7175181999919005,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "50",
+            "clocks.current.sm": "2872",
+            "clocks.current.memory": "14001",
+            "power.draw": "46.83",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P1",
+            "temperature.gpu": "44",
+            "clocks.current.sm": "2572",
+            "clocks.current.memory": "14001",
+            "power.draw": "38.67",
+            "utilization.gpu": "1",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.47987151553070784
+    },
+    {
+      "pair": 6,
+      "order": [
+        "adaptive",
+        "uniform"
+      ],
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.765220000001136,
+        "solver_seconds": 44.08206109999446,
+        "filter_seconds": 0.7114638999919407,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P1",
+            "temperature.gpu": "44",
+            "clocks.current.sm": "2572",
+            "clocks.current.memory": "14001",
+            "power.draw": "38.67",
+            "utilization.gpu": "1",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "42",
+            "clocks.current.sm": "2565",
+            "clocks.current.memory": "14001",
+            "power.draw": "38.12",
+            "utilization.gpu": "1",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.328190400003223,
+        "solver_seconds": 20.85762560000876,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "42",
+            "clocks.current.sm": "2565",
+            "clocks.current.memory": "14001",
+            "power.draw": "38.12",
+            "utilization.gpu": "1",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "43",
+            "clocks.current.sm": "2887",
+            "clocks.current.memory": "14001",
+            "power.draw": "43.78",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.47745291051774547
+    },
+    {
+      "pair": 7,
+      "order": [
+        "uniform",
+        "adaptive"
+      ],
+      "uniform": {
+        "work": 1562013052,
+        "trajectories": 78884,
+        "wall_seconds": 22.42016499998863,
+        "solver_seconds": 20.950760999985505,
+        "filter_seconds": 0.0,
+        "schedule_sha256": "2389157a1f9bd439104d9cd72ccae4b01918c5e7794f49350ad545b1c3025efc",
+        "result_sha256": "37591b0a88b9d617b5485522dc5583599e43731b2cfa0593eb8d1b4b83e67c4a",
+        "map_sha256": "ad9e0d3711466ebecd96959856b51efb489167e39c670ad9591fdc4c653dd9dc",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "43",
+            "clocks.current.sm": "2887",
+            "clocks.current.memory": "14001",
+            "power.draw": "43.78",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "42",
+            "clocks.current.sm": "2887",
+            "clocks.current.memory": "14001",
+            "power.draw": "43.57",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "adaptive": {
+        "work": 1562705896,
+        "trajectories": 69880,
+        "wall_seconds": 46.75523209999665,
+        "solver_seconds": 44.128314799891086,
+        "filter_seconds": 0.6677379000175279,
+        "schedule_sha256": "a959e9ceb138432372e54bc8c000c572fdd5f5602390792a4b3b40f3b744a76d",
+        "result_sha256": "729c92d514a3e3981df96699e0b974d1375dadda843a87e5f704338b4cbaf821",
+        "map_sha256": "263c57b92c773fdc9b80902bf7670f4d369aa8bfcbdbc67267966153da37d199",
+        "matches_calibration": true,
+        "gpu_before": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "42",
+            "clocks.current.sm": "2887",
+            "clocks.current.memory": "14001",
+            "power.draw": "43.57",
+            "utilization.gpu": "0",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "gpu_after": {
+          "device_metrics": {
+            "name": "NVIDIA GeForce RTX 5070",
+            "driver_version": "617.42",
+            "pstate": "P0",
+            "temperature.gpu": "42",
+            "clocks.current.sm": "2595",
+            "clocks.current.memory": "14001",
+            "power.draw": "37.70",
+            "utilization.gpu": "6",
+            "memory.used": "21"
+          },
+          "compute_process_count": 0
+        },
+        "matches_live_signature": true
+      },
+      "valid": true,
+      "uniform_over_adaptive_wall": 0.47952205545762305
+    }
+  ],
+  "timing_ratio": {
+    "median": 0.4787815641563175,
+    "ci95": [
+      0.47807890310788304,
+      0.47952205545762305
+    ]
+  }
+}

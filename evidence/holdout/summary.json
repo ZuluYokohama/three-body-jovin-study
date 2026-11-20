@@ -1,0 +1,342 @@
+{
+  "gates": {
+    "boundary": "passed",
+    "cpu": "passed",
+    "advantage": "supported",
+    "speedup": "unsupported"
+  },
+  "pooled": {
+    "adaptive_boundary": {
+      "agreement": 0.9119064318616951,
+      "cases": 215,
+      "matches": 199
+    },
+    "uniform_boundary": {
+      "agreement": 0.785509828824901,
+      "cases": 215,
+      "matches": 190
+    },
+    "cpu_agreement": {
+      "agreement": 0.9881268949235289,
+      "cases": 383,
+      "matches": 375
+    },
+    "adaptive_all": {
+      "agreement": 0.9837689285648413,
+      "cases": 383,
+      "matches": 363
+    },
+    "uniform_all": {
+      "agreement": 0.9618385377280189,
+      "cases": 383,
+      "matches": 352
+    },
+    "unknown_boundary_centers": 1,
+    "unresolved_cpu_centers": 1,
+    "adaptive_advantage_ci": [
+      0.011065002385565422,
+      0.27178290890778534
+    ]
+  },
+  "grids": [
+    {
+      "grid": 1,
+      "adaptive_boundary": {
+        "agreement": 0.966234595643021,
+        "cases": 74,
+        "matches": 69
+      },
+      "uniform_boundary": {
+        "agreement": 0.7724649336518674,
+        "cases": 74,
+        "matches": 65
+      },
+      "cpu_agreement": {
+        "agreement": 0.9967327117919922,
+        "cases": 128,
+        "matches": 125
+      },
+      "adaptive_all": {
+        "agreement": 0.9934654235839844,
+        "cases": 128,
+        "matches": 122
+      },
+      "uniform_all": {
+        "agreement": 0.9622154235839844,
+        "cases": 128,
+        "matches": 118
+      },
+      "unknown_boundary_centers": 0,
+      "unresolved_cpu_centers": 0,
+      "strata": {
+        "pilot_boundary": {
+          "adaptive_boundary": {
+            "agreement": 0.9295774647887324,
+            "cases": 71,
+            "matches": 66
+          },
+          "uniform_boundary": {
+            "agreement": 0.8873239436619719,
+            "cases": 71,
+            "matches": 63
+          },
+          "cpu_agreement": {
+            "agreement": 0.96875,
+            "cases": 96,
+            "matches": 93
+          },
+          "adaptive_all": {
+            "agreement": 0.9375,
+            "cases": 96,
+            "matches": 90
+          },
+          "uniform_all": {
+            "agreement": 0.90625,
+            "cases": 96,
+            "matches": 87
+          },
+          "unknown_boundary_centers": 0,
+          "unresolved_cpu_centers": 0
+        },
+        "pilot_other": {
+          "adaptive_boundary": {
+            "agreement": 1.0,
+            "cases": 3,
+            "matches": 3
+          },
+          "uniform_boundary": {
+            "agreement": 0.6666666666666666,
+            "cases": 3,
+            "matches": 2
+          },
+          "cpu_agreement": {
+            "agreement": 1.0,
+            "cases": 32,
+            "matches": 32
+          },
+          "adaptive_all": {
+            "agreement": 1.0,
+            "cases": 32,
+            "matches": 32
+          },
+          "uniform_all": {
+            "agreement": 0.96875,
+            "cases": 32,
+            "matches": 31
+          },
+          "unknown_boundary_centers": 0,
+          "unresolved_cpu_centers": 0
+        }
+      },
+      "timing_status": "passed",
+      "work_gap": 2.347833478845152e-06
+    },
+    {
+      "grid": 2,
+      "adaptive_boundary": {
+        "agreement": 0.9662125179366559,
+        "cases": 69,
+        "matches": 65
+      },
+      "uniform_boundary": {
+        "agreement": 0.9493187769049838,
+        "cases": 69,
+        "matches": 63
+      },
+      "cpu_agreement": {
+        "agreement": 0.9687159286408499,
+        "cases": 127,
+        "matches": 123
+      },
+      "adaptive_all": {
+        "agreement": 0.9956388660287904,
+        "cases": 127,
+        "matches": 123
+      },
+      "uniform_all": {
+        "agreement": 0.9912777320575807,
+        "cases": 127,
+        "matches": 119
+      },
+      "unknown_boundary_centers": 1,
+      "unresolved_cpu_centers": 1,
+      "strata": {
+        "pilot_boundary": {
+          "adaptive_boundary": {
+            "agreement": 0.9402985074626866,
+            "cases": 67,
+            "matches": 63
+          },
+          "uniform_boundary": {
+            "agreement": 0.9104477611940298,
+            "cases": 67,
+            "matches": 61
+          },
+          "cpu_agreement": {
+            "agreement": 0.968421052631579,
+            "cases": 95,
+            "matches": 92
+          },
+          "adaptive_all": {
+            "agreement": 0.9578947368421052,
+            "cases": 95,
+            "matches": 91
+          },
+          "uniform_all": {
+            "agreement": 0.9157894736842105,
+            "cases": 95,
+            "matches": 87
+          },
+          "unknown_boundary_centers": 1,
+          "unresolved_cpu_centers": 1
+        },
+        "pilot_other": {
+          "adaptive_boundary": {
+            "agreement": 1.0,
+            "cases": 2,
+            "matches": 2
+          },
+          "uniform_boundary": {
+            "agreement": 1.0,
+            "cases": 2,
+            "matches": 2
+          },
+          "cpu_agreement": {
+            "agreement": 0.96875,
+            "cases": 32,
+            "matches": 31
+          },
+          "adaptive_all": {
+            "agreement": 1.0,
+            "cases": 32,
+            "matches": 32
+          },
+          "uniform_all": {
+            "agreement": 1.0,
+            "cases": 32,
+            "matches": 32
+          },
+          "unknown_boundary_centers": 0,
+          "unresolved_cpu_centers": 0
+        }
+      },
+      "timing_status": "passed",
+      "work_gap": 0.0004433617366987908
+    },
+    {
+      "grid": 3,
+      "adaptive_boundary": {
+        "agreement": 0.8378579364226069,
+        "cases": 72,
+        "matches": 65
+      },
+      "uniform_boundary": {
+        "agreement": 0.6961796222628391,
+        "cases": 72,
+        "matches": 62
+      },
+      "cpu_agreement": {
+        "agreement": 0.9989109039306641,
+        "cases": 128,
+        "matches": 127
+      },
+      "adaptive_all": {
+        "agreement": 0.9622154235839844,
+        "cases": 128,
+        "matches": 118
+      },
+      "uniform_all": {
+        "agreement": 0.9320545196533203,
+        "cases": 128,
+        "matches": 115
+      },
+      "unknown_boundary_centers": 0,
+      "unresolved_cpu_centers": 0,
+      "strata": {
+        "pilot_boundary": {
+          "adaptive_boundary": {
+            "agreement": 0.9104477611940298,
+            "cases": 67,
+            "matches": 61
+          },
+          "uniform_boundary": {
+            "agreement": 0.8805970149253731,
+            "cases": 67,
+            "matches": 59
+          },
+          "cpu_agreement": {
+            "agreement": 0.9895833333333334,
+            "cases": 96,
+            "matches": 95
+          },
+          "adaptive_all": {
+            "agreement": 0.90625,
+            "cases": 96,
+            "matches": 87
+          },
+          "uniform_all": {
+            "agreement": 0.8854166666666666,
+            "cases": 96,
+            "matches": 85
+          },
+          "unknown_boundary_centers": 0,
+          "unresolved_cpu_centers": 0
+        },
+        "pilot_other": {
+          "adaptive_boundary": {
+            "agreement": 0.8,
+            "cases": 5,
+            "matches": 4
+          },
+          "uniform_boundary": {
+            "agreement": 0.6,
+            "cases": 5,
+            "matches": 3
+          },
+          "cpu_agreement": {
+            "agreement": 1.0,
+            "cases": 32,
+            "matches": 32
+          },
+          "adaptive_all": {
+            "agreement": 0.96875,
+            "cases": 32,
+            "matches": 31
+          },
+          "uniform_all": {
+            "agreement": 0.9375,
+            "cases": 32,
+            "matches": 30
+          },
+          "unknown_boundary_centers": 0,
+          "unresolved_cpu_centers": 0
+        }
+      },
+      "timing_status": "passed",
+      "work_gap": 0.00017364504828079025
+    }
+  ],
+  "timing": {
+    "status": "measured",
+    "uniform_over_adaptive": 0.4787815641563175,
+    "ci": [
+      0.47807890310788304,
+      0.47952205545762305
+    ],
+    "pairs": 21,
+    "adaptive_median_seconds": 46.863834699994186,
+    "uniform_median_seconds": 22.385137500008568
+  },
+  "oracle": {
+    "points": 1873,
+    "confirmed": 1872,
+    "unresolved": 1
+  },
+  "jovin": {
+    "receipt_id": "20261119T231443Z-6e72381b031e",
+    "source_manifest_sha256": "f666e2b25be5577fd03d4feec67e23281eff7b0cd9385705914fede7c5b2fea3",
+    "receipt_sha256": "a6e30d1ba99ca387d3f57fe16f8dcc2e3487255126b5c39628358f8ffcd5da1b",
+    "chain_head_sha256": "a6e30d1ba99ca387d3f57fe16f8dcc2e3487255126b5c39628358f8ffcd5da1b"
+  },
+  "protocol_sha256": "80b1bf9fb3d13bf424a6788b4b1ac206be86a70d0dcbc6f276b80a598675537a"
+}

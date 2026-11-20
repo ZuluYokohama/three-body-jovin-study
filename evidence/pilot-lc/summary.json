@@ -1,0 +1,555 @@
+{
+  "manifest_sha256": "30dd509277cde1c8566f83851f55502613e1824a1317e38049ac7d99e727c501",
+  "jovin": {
+    "receipt_id": "20261119T220403Z-d278d25ad982",
+    "native_receipt_id": "20261119T220358Z-6b2dc0b74716",
+    "ast_receipt_id": "20261119T220341Z-0e88cd83f509",
+    "trace_receipt_id": "20261119T220359Z-e53016983b7a",
+    "source_manifest_sha256": "b91bbb5e119bf24669c72b55118268df84bae337d8a69dece533e7339f3e5978",
+    "chain_head": "51adb8d049d25de78092525c0502a2e2a1d776838a112d2d0754eb37d8f49e23",
+    "chain_receipts": 12,
+    "evidence_sha256": {
+      "baseline.json": "17076ee117d8cb4f56b52c3a606a9fb3e9d8ef8a4714ff6b273d174e168c7f99",
+      "ast.json": "7df56d6275694ec77f4613b9517842857cae815ad6b0bc78bb2f25bfb6564217",
+      "trace.json": "a606bd28c1f8601bedce8ccf7f025ae0a8f6fbdf48ee9eb2cc2c1be9496b6392",
+      "project.json": "064b4f5e7bee11cada59239c64e343243112dfe594da47106f18122c93e8ff08",
+      "chain.json": "b23d2a8a413ffb0b1416bb69ffd0091c54da7944c6f090d2d7a9f0456c1badd2",
+      "scope.json": "2e646b848c9a6e98c7361a216c285e385c46a111d695ee721e17d060f1eea149"
+    }
+  },
+  "coordinates": "levi-civita",
+  "horizon": 50.0,
+  "fine_grid": 256,
+  "gpu_state_gate": {
+    "passed": true,
+    "fixtures": 4,
+    "max_normalized_error": 2.656208586415687e-14
+  },
+  "cpu_audit": {
+    "cases": 96,
+    "stable": 86,
+    "matches": 79,
+    "agreement": 0.9186046511627907,
+    "paired": {
+      "reference_labels_changed_on_replay": 0,
+      "original_disagreements": [
+        {
+          "i": 171,
+          "j": 114,
+          "cpu_label": 4,
+          "old_gpu_label": 3,
+          "new_gpu_label": 2,
+          "gpu_match": false,
+          "old_min_r": 0.0010032182557725155,
+          "new_min_r": 0.0013729631923497026
+        },
+        {
+          "i": 109,
+          "j": 95,
+          "cpu_label": 4,
+          "old_gpu_label": 1,
+          "new_gpu_label": 0,
+          "gpu_match": false,
+          "old_min_r": 0.0010393918372442366,
+          "new_min_r": 0.0025846122207677535
+        },
+        {
+          "i": 178,
+          "j": 80,
+          "cpu_label": 4,
+          "old_gpu_label": 2,
+          "new_gpu_label": 4,
+          "gpu_match": true,
+          "old_min_r": 0.0010818554255355559,
+          "new_min_r": 0.0009999999992606934
+        },
+        {
+          "i": 173,
+          "j": 103,
+          "cpu_label": 4,
+          "old_gpu_label": 2,
+          "new_gpu_label": 4,
+          "gpu_match": true,
+          "old_min_r": 0.0022215921001910353,
+          "new_min_r": 0.0009999999939389254
+        },
+        {
+          "i": 187,
+          "j": 119,
+          "cpu_label": 4,
+          "old_gpu_label": 1,
+          "new_gpu_label": 0,
+          "gpu_match": false,
+          "old_min_r": 0.0012390491535192174,
+          "new_min_r": 0.0012390390106894464
+        },
+        {
+          "i": 64,
+          "j": 154,
+          "cpu_label": 4,
+          "old_gpu_label": 0,
+          "new_gpu_label": 4,
+          "gpu_match": true,
+          "old_min_r": 0.0011732824772749419,
+          "new_min_r": 0.000999999999808992
+        },
+        {
+          "i": 129,
+          "j": 205,
+          "cpu_label": 4,
+          "old_gpu_label": 1,
+          "new_gpu_label": 4,
+          "gpu_match": true,
+          "old_min_r": 0.0020352127030478675,
+          "new_min_r": 0.0009999999991713623
+        },
+        {
+          "i": 185,
+          "j": 100,
+          "cpu_label": 4,
+          "old_gpu_label": 0,
+          "new_gpu_label": 4,
+          "gpu_match": true,
+          "old_min_r": 0.0010390829072788011,
+          "new_min_r": 0.0009999999989815519
+        }
+      ]
+    }
+  },
+  "reference_stable_fraction": 0.98455810546875,
+  "reference_labels": {
+    "Horizon reached": 444,
+    "Body 1 escapes": 1514,
+    "Body 2 escapes": 1508,
+    "Body 3 escapes": 369,
+    "Close approach": 60689,
+    "Unresolved": 1012
+  },
+  "comparison": [
+    {
+      "depth": 0,
+      "adaptive": {
+        "evaluations": 19991284,
+        "trajectories": 1024,
+        "all": {
+          "count": 64524,
+          "matches": 60209,
+          "coverage": 0.9990391172276982,
+          "agreement": 0.9331256586696423
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 3708,
+          "coverage": 0.9937244600116755,
+          "agreement": 0.5411558669001751
+        }
+      },
+      "uniform": {
+        "evaluations": 19991284,
+        "trajectories": 1024,
+        "all": {
+          "count": 64524,
+          "matches": 60209,
+          "coverage": 0.9990391172276982,
+          "agreement": 0.9331256586696423
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 3708,
+          "coverage": 0.9937244600116755,
+          "agreement": 0.5411558669001751
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "adaptive": {
+        "evaluations": 74897952,
+        "trajectories": 1940,
+        "all": {
+          "count": 64524,
+          "matches": 61034,
+          "coverage": 0.9997675283615399,
+          "agreement": 0.9459115987849482
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 3899,
+          "coverage": 0.9978108581436077,
+          "agreement": 0.5690309398715704
+        }
+      },
+      "uniform": {
+        "evaluations": 74855288,
+        "trajectories": 3560,
+        "all": {
+          "count": 64524,
+          "matches": 60438,
+          "coverage": 0.9985586758415473,
+          "agreement": 0.9366747256834667
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 3713,
+          "coverage": 0.9900758902510216,
+          "agreement": 0.5418855808523059
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "adaptive": {
+        "evaluations": 257976696,
+        "trajectories": 4180,
+        "all": {
+          "count": 64524,
+          "matches": 61341,
+          "coverage": 0.9991631021015436,
+          "agreement": 0.9506695183187651
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 4078,
+          "coverage": 0.9946001167542323,
+          "agreement": 0.5951546993578517
+        }
+      },
+      "uniform": {
+        "evaluations": 257921524,
+        "trajectories": 12948,
+        "all": {
+          "count": 64524,
+          "matches": 60540,
+          "coverage": 0.9989616266815449,
+          "agreement": 0.9382555328249953
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 3754,
+          "coverage": 0.9928488032691185,
+          "agreement": 0.5478692352597782
+        }
+      }
+    },
+    {
+      "depth": 3,
+      "adaptive": {
+        "evaluations": 926804224,
+        "trajectories": 10748,
+        "all": {
+          "count": 64524,
+          "matches": 63591,
+          "coverage": 1.0,
+          "agreement": 0.9855402640877813
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 5924,
+          "coverage": 1.0,
+          "agreement": 0.8645650904845301
+        }
+      },
+      "uniform": {
+        "evaluations": 926713960,
+        "trajectories": 45976,
+        "all": {
+          "count": 64524,
+          "matches": 62062,
+          "coverage": 0.9992560907569277,
+          "agreement": 0.961843655074081
+        },
+        "boundary": {
+          "count": 6852,
+          "matches": 4952,
+          "coverage": 0.9948920023350847,
+          "agreement": 0.7227086981903094
+        }
+      }
+    }
+  ],
+  "uniform_complete_levels": [
+    {
+      "depth": 0,
+      "evaluations": 19991284,
+      "seconds": 1.9943368999811355,
+      "all": {
+        "count": 64524,
+        "matches": 60209,
+        "coverage": 0.9990391172276982,
+        "agreement": 0.9331256586696423
+      },
+      "boundary": {
+        "count": 6852,
+        "matches": 3708,
+        "coverage": 0.9937244600116755,
+        "agreement": 0.5411558669001751
+      }
+    },
+    {
+      "depth": 1,
+      "evaluations": 102671912,
+      "seconds": 4.798421499988763,
+      "all": {
+        "count": 64524,
+        "matches": 60538,
+        "coverage": 0.9995195586138491,
+        "agreement": 0.938224536606534
+      },
+      "boundary": {
+        "count": 6852,
+        "matches": 3718,
+        "coverage": 0.9963514302393461,
+        "agreement": 0.5426152948044367
+      }
+    },
+    {
+      "depth": 2,
+      "evaluations": 439189668,
+      "seconds": 9.134342099976493,
+      "all": {
+        "count": 64524,
+        "matches": 60623,
+        "coverage": 0.999101109664621,
+        "agreement": 0.9395418758911412
+      },
+      "boundary": {
+        "count": 6852,
+        "matches": 3838,
+        "coverage": 0.9940163455925277,
+        "agreement": 0.560128429655575
+      }
+    },
+    {
+      "depth": 3,
+      "evaluations": 1777268240,
+      "seconds": 19.475264399981825,
+      "all": {
+        "count": 64524,
+        "matches": 64524,
+        "coverage": 1.0,
+        "agreement": 1.0
+      },
+      "boundary": {
+        "count": 6852,
+        "matches": 6852,
+        "coverage": 1.0,
+        "agreement": 1.0
+      }
+    }
+  ],
+  "adaptive_seconds": 16.18315409994102,
+  "uniform_matched_seconds": 16.472984699968947,
+  "interior_probes": {
+    "all_probes": 1024,
+    "stable_interior": {
+      "count": 846,
+      "matches": 838,
+      "coverage": 1.0,
+      "agreement": 0.9905437352245863
+    },
+    "missed_region_rate": 0.009456264775413725
+  },
+  "filter": {
+    "rows": 65536,
+    "repeat": 9,
+    "device": 0,
+    "device_name": "NVIDIA GeForce RTX 5070",
+    "compute_capability": "12.0",
+    "backend": "both",
+    "agreement": true,
+    "setup_ms": 12.8198,
+    "refine_count": 11874,
+    "fused_ms": {
+      "min": 0.122,
+      "median": 0.1456,
+      "p95": 0.2272
+    },
+    "tensor_ms": {
+      "min": 0.1708,
+      "median": 0.22,
+      "p95": 0.3149
+    }
+  },
+  "tensor_profile": {
+    "status": "counter_permission_denied",
+    "report": "nsight_tensor.csv",
+    "systems": {
+      "status": "trace_unavailable",
+      "detail": "[local path omitted]"
+    }
+  },
+  "decision": {
+    "work_savings_gate": "not met",
+    "cpu_audit_gate": false,
+    "boundary_gate": false,
+    "both_validation_gates": false,
+    "adaptive_target_evaluations": null,
+    "uniform_target_evaluations": 1777268240
+  },
+  "frozen_baseline_scores": {
+    "original_adaptive": {
+      "count": 5608,
+      "matches": 5040,
+      "coverage": 1.0,
+      "agreement": 0.8987161198288159
+    },
+    "new_adaptive": {
+      "count": 5608,
+      "matches": 4687,
+      "coverage": 0.9989300998573466,
+      "agreement": 0.8357703281027105
+    },
+    "new_uniform": {
+      "count": 5608,
+      "matches": 3924,
+      "coverage": 0.9953637660485022,
+      "agreement": 0.6997146932952925
+    },
+    "original_stable_cells": 59997,
+    "also_resolved_in_new_reference": 59576
+  },
+  "gpu_lc_gate": {
+    "crossing": {
+      "passed": true,
+      "fixtures": 4,
+      "steps": 4096,
+      "device": 0,
+      "max_state_error": 2.300965091236723e-14,
+      "max_clock_error": 1.4210854715202004e-14,
+      "max_constraint_residual": 4.274358644806853e-15,
+      "max_radius_at_collision": 3.935192382524297e-29
+    },
+    "coupled": {
+      "passed": true,
+      "fixtures": 7,
+      "completed_passages": 5,
+      "cutoff_fixtures": 2,
+      "horizon": 0.38,
+      "max_normalized_state_error": 7.81236186853107e-11,
+      "max_cutoff_time_error": 3.0142555118573e-14,
+      "max_cutoff_radius_error": 5.947122135030458e-13,
+      "max_lc_residual": 2.3370255792997456e-14,
+      "details": [
+        {
+          "point": [
+            0.3,
+            0.4
+          ],
+          "label": 0,
+          "time": 0.38,
+          "cpu_time": 0.38,
+          "time_error": 0.0,
+          "minimum_separation": 0.0013156864920667514,
+          "chart_entries": 1,
+          "chart_exits": 1,
+          "max_lc_residual": 9.700172426516287e-15,
+          "normalized_state_error": 1.5091816685242065e-11
+        },
+        {
+          "point": [
+            0.7,
+            0.4
+          ],
+          "label": 0,
+          "time": 0.38,
+          "cpu_time": 0.38,
+          "time_error": 0.0,
+          "minimum_separation": 0.0013156864920659168,
+          "chart_entries": 1,
+          "chart_exits": 1,
+          "max_lc_residual": 9.967311322736543e-15,
+          "normalized_state_error": 7.81236186853107e-11
+        },
+        {
+          "point": [
+            0.35,
+            0.5
+          ],
+          "label": 0,
+          "time": 0.38,
+          "cpu_time": 0.38,
+          "time_error": 0.0,
+          "minimum_separation": 0.0038865307430230103,
+          "chart_entries": 1,
+          "chart_exits": 1,
+          "max_lc_residual": 2.3370255792997456e-14,
+          "normalized_state_error": 6.098122007358597e-12
+        },
+        {
+          "point": [
+            0.65,
+            0.5
+          ],
+          "label": 0,
+          "time": 0.38,
+          "cpu_time": 0.38,
+          "time_error": 0.0,
+          "minimum_separation": 0.0038865307430207283,
+          "chart_entries": 1,
+          "chart_exits": 1,
+          "max_lc_residual": 2.2891699073773377e-14,
+          "normalized_state_error": 1.4972898988891243e-11
+        },
+        {
+          "point": [
+            0.28553,
+            0.4
+          ],
+          "label": 0,
+          "time": 0.38,
+          "cpu_time": 0.38,
+          "time_error": 0.0,
+          "minimum_separation": 0.0010015406980852554,
+          "chart_entries": 1,
+          "chart_exits": 1,
+          "max_lc_residual": 7.996535241576585e-15,
+          "normalized_state_error": 2.642519536522059e-11
+        },
+        {
+          "point": [
+            0.28,
+            0.4
+          ],
+          "label": 4,
+          "time": 0.26373273089078947,
+          "cpu_time": 0.26373273089077287,
+          "time_error": 1.659783421814609e-14,
+          "minimum_separation": 0.0009999999994053117,
+          "chart_entries": 1,
+          "chart_exits": 0,
+          "max_lc_residual": 8.285466370705378e-15,
+          "cutoff_radius_error": 5.947122135030458e-13
+        },
+        {
+          "point": [
+            0.28537,
+            0.4
+          ],
+          "label": 4,
+          "time": 0.26627529479241496,
+          "cpu_time": 0.2662752947923848,
+          "time_error": 3.0142555118573e-14,
+          "minimum_separation": 0.0009999999998878068,
+          "chart_entries": 1,
+          "chart_exits": 0,
+          "max_lc_residual": 8.646305327689203e-15,
+          "cutoff_radius_error": 1.1216375050970839e-13
+        }
+      ]
+    }
+  },
+  "chart_use": {
+    "standard_grid": {
+      "trajectories_entering": 65444,
+      "entries": 493254,
+      "exits": 431452,
+      "max_lc_residual": 2.303014659205001e-07
+    },
+    "tight_grid": {
+      "trajectories_entering": 65445,
+      "entries": 495535,
+      "exits": 433727,
+      "max_lc_residual": 1.3904893407411817e-09
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "policy": "Use a label only when the two strictest FP64 settings agree and both pass the original energy screen.",
+  "tiers": {
+    "p12": {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "hmax": 0.01
+    },
+    "p13": {
+      "rtol": 1e-13,
+      "atol": 1e-15,
+      "hmax": 0.005
+    },
+    "p14": {
+      "rtol": 3e-14,
+      "atol": 3e-16,
+      "hmax": 0.0025
+    }
+  },
+  "coordinates": "levi-civita",
+  "horizon": 50.0,
+  "close_separation": 0.001,
+  "arithmetic": "IEEE FP64",
+  "device": 0,
+  "cohort": {
+    "path": "[local path omitted]",
+    "sha256": "1cb5d682691bc05fc2e5fbdfd3b873f4281a458c1576564dd02f28c49029ddbe"
+  },
+  "cpu_reference_path": "[local path omitted]",
+  "solver_sha256": "d146e760990908fb65ed6272c5315660927155a5cf65ed0b80cfcafa67439f14",
+  "orchestrator_sha256": "a3cdb57c0dfd2294402e1bef0227f204bc50d31e89886b15a03b347064fcf91a",
+  "study_sha256": "0d0b1ecb653bde070e2f03aa02de67b2b7f9906f5ab37bab1908df381534bd82"
+}

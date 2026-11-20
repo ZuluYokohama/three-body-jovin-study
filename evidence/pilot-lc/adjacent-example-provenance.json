@@ -1,0 +1,8 @@
+{
+  "note": "Example selected from original pilot rows 5754 and 5755.",
+  "source_sha256": {
+    "reference_tight.in.csv": "ec13f82c3fb614efec0ea3ff301a3a82145e976f68462a0c5a3dc0256645c0c4",
+    "reference_tight.out.csv": "14d376f4744d28ae65a5b9f6ea48f9bed7be94020c7edb2245b6921e090f10d8",
+    "uniform_3.out.csv": "9bfd0789c16e88c8292bae1e49955e06902339fa9139916f65c5212d46db3df7"
+  }
+}

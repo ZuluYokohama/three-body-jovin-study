@@ -1,0 +1,119 @@
+{
+  "coordinates": "levi-civita",
+  "grid": 256,
+  "horizon": 50.0,
+  "close_separation": 0.001,
+  "domain": [
+    0.1,
+    0.9,
+    0.05,
+    0.65
+  ],
+  "device": 0,
+  "hardware": [
+    "0, NVIDIA GeForce RTX 5070, [device identifier omitted], 617.42",
+    "1, NVIDIA GeForce GTX 1660 Ti, [device identifier omitted], 617.42"
+  ],
+  "gates": {
+    "boundary": 0.9,
+    "cpu": 0.95,
+    "minimum_stable_cpu": 48
+  },
+  "boundary_reference": "frozen prior Levi-Civita reference",
+  "adaptive_selection": "observe archived and newly integrated adaptive samples only",
+  "dense_levels": [
+    {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "hmax": 0.01
+    },
+    {
+      "rtol": 1e-13,
+      "atol": 1e-15,
+      "hmax": 0.005
+    }
+  ],
+  "audit_levels": {
+    "p12": {
+      "rtol": 1e-12,
+      "atol": 1e-14,
+      "hmax": 0.01
+    },
+    "p13": {
+      "rtol": 1e-13,
+      "atol": 1e-15,
+      "hmax": 0.005
+    },
+    "p14": {
+      "rtol": 3e-14,
+      "atol": 3e-16,
+      "hmax": 0.0025
+    }
+  },
+  "saved_adaptive": 641438440,
+  "saved_reference": 1421087484,
+  "source_sha256": {
+    "study.py": "0d0b1ecb653bde070e2f03aa02de67b2b7f9906f5ab37bab1908df381534bd82",
+    "reference.py": "174ef24623dfdd34fe88fe413fc90bafe6ecdca0cd1c734be35a81e032e2a83c",
+    "lc_checks.py": "eb286e930a5e57b83948949c4378d52ab49ce24623127d0055b8a877e7b99593",
+    "precision_audit.py": "a3cdb57c0dfd2294402e1bef0227f204bc50d31e89886b15a03b347064fcf91a",
+    "refined_study.py": "ade7b5d5ae4b56772ad52c2d67a447912d16a5747ab919a80091f7b4e0eb77dd",
+    "boundary_refine.py": "dfabd9e6907931684459f78460b6a53717fe40f11a34eddecc78ed232225669c",
+    "cuda/levi_civita.hpp": "ec6ff5b7854318dd71fa073c6d65c0bd1a9d1a5b3d8f8830e5a4e4a580430cfe",
+    "cuda/solver.cu": "3e44fb26fbb78b711e8f291115a204d8e3412d194283f5318861e3a717f6dd5c"
+  },
+  "binary_sha256": {
+    "solver.exe": "d146e760990908fb65ed6272c5315660927155a5cf65ed0b80cfcafa67439f14",
+    "filter.exe": "d4ba470998b706c48d3bc41bc60794b1927e68919b798bc73a163ac314383e98"
+  },
+  "jovin": {
+    "receipt_id": "20261119T225531Z-c1ff03074f26",
+    "native_receipt_id": "20261119T225526Z-ff1e05975873",
+    "ast_receipt_id": "20261119T225509Z-28def17873fe",
+    "trace_receipt_id": "20261119T225528Z-bdc10627050c",
+    "source_manifest_sha256": "b91bbb5e119bf24669c72b55118268df84bae337d8a69dece533e7339f3e5978",
+    "chain_head": "b8e753fbc24efcae71d638f861fcf9f5111cacb431a1efd4a70afbd95dd40b31",
+    "chain_receipts": 12,
+    "evidence_sha256": {
+      "baseline.json": "39320d96cca33ee0fa06480f969e050f322068b248fda8994dc7c6fab902be07",
+      "ast.json": "65695c8b73a1aa8b3defe8417062c6a79e9dd61788f66b2d64c833bf198ee650",
+      "trace.json": "4d4d438bbf440e703144da9b6cd264165ffd059dc20091ab518e367b977347b7",
+      "project.json": "a8d546e338f3e2364363ab970201dd930a7b1a24ddb8d1dbf3919f47da9c6312",
+      "chain.json": "ea98ab9ae5557839ca9498fe756bd1b6efa76e617ea68dc61e8083d7b0eefad3",
+      "scope.json": "2e646b848c9a6e98c7361a216c285e385c46a111d695ee721e17d060f1eea149"
+    }
+  },
+  "archive_sha256": {
+    "[local path 1 omitted]": {
+      "summary.json": "19c58ed300a961dbbed1a3b75fbb8a33cc3b174202600fe90b8e4cbd7d4fbd4c",
+      "manifest.json": "2bbd9bece2c99443d942216f3c4a7dab1cef745a54bcd134a18943e4255b6ad1",
+      "cpu_audit.csv": "1cb5d682691bc05fc2e5fbdfd3b873f4281a458c1576564dd02f28c49029ddbe",
+      "outcome_grids.npz": "1937844be55b6d216a489bae52ec424e9a2116666897cd6428744652e62de340",
+      "raw/reference_tight.out.csv": "c4c8506ffeea7280e4b84acc2515964395250129a22fe0af1585270a3970f861"
+    },
+    "[local path 2 omitted]": {
+      "summary.json": "a1ef46a615f240f9267d9852b9f3ea70dc6816a11cb6ef5ad7dec2a74f65c7df",
+      "manifest.json": "30dd509277cde1c8566f83851f55502613e1824a1317e38049ac7d99e727c501",
+      "cpu_audit.csv": "54af45d0c37058b8c198c5e826a31b104b4a74b9d5cf465f1ea64b77cb86707f",
+      "outcome_grids.npz": "6427f28b09b833b02dd81ff5648bc5bfbec28bfc027d22ba8e3d0b06a9880888",
+      "raw/reference_tight.out.csv": "14d376f4744d28ae65a5b9f6ea48f9bed7be94020c7edb2245b6921e090f10d8",
+      "raw/uniform_0.out.csv": "d1427f3b5659bb7f81b0adf8c626eafa1cd7e130d9424dded1aa6e0094a66afa",
+      "raw/uniform_1.out.csv": "c80a6814c1af97bf6055851aeeee753ad558765d3c4f9ca191c234b25971db1e",
+      "raw/uniform_2.out.csv": "cfe160da8ec816a93b5d5838339298f0a5ff2d2e616e518e5a20aac07f3091b4",
+      "raw/uniform_3.out.csv": "9bfd0789c16e88c8292bae1e49955e06902339fa9139916f65c5212d46db3df7",
+      "raw/uniform_0.in.csv": "426bb9b13df07fb0cdb12e90865591db76d27a1eb77ef905148852fd4dd600a3",
+      "raw/adaptive_1.in.csv": "c91a06170f1fe5829e5171c4c12d12ab480c00c4b136027d0631783807c5b107",
+      "raw/adaptive_1.out.csv": "714a2e797ff39596bf5b0f6d50cacc0b0ced604b864a456c59cf632aaa13e727",
+      "raw/adaptive_2.in.csv": "596cc0443107417ffee28a2c18e1f1ae9edb28022c1b95a2376cac80c9c05ec2",
+      "raw/adaptive_2.out.csv": "6f04fd7ea16bea0bb767d9edd33a053481f2a39601a3ae485b90b91863f0c708",
+      "raw/adaptive_3.in.csv": "ba1452263754580b19736e27e854838d043121b5ddc48f9564bbe5c691d3d1ec",
+      "raw/adaptive_3.out.csv": "5147ea59ca2bf7813b7ee8457e0f4c386239fc957f8078b47d132e6303052c82"
+    },
+    "[local path 3 omitted]": {
+      "manifest.json": "090d3f52090863df02a2020d2624320e90f6b76c2a5a187a68fc7e160eff4e64",
+      "summary.json": "d634827c5d444655449c1158eebe17f986ca193a6f8cef95a560aebc56cc9e05",
+      "audit.csv": "ffd44caa78cea3841230bc5de3addc3734a126e94a505de9d93d93ca6db5a650",
+      "gpu_predictions.csv": "ca4f289b21d2d36420e862a2b352e48b370813655f10c9f7c48aa433b4c8e503"
+    }
+  }
+}

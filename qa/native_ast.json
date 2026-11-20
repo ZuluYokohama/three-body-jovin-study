@@ -1,0 +1,7 @@
+{
+  "format": "jovin-harness.native-ast-plan.v2",
+  "objective": "Record the verifier and production Levi-Civita chart in its portable C++ compile context.",
+  "standard": "c++20",
+  "include_dirs": ["cuda"],
+  "units": [{"id": "three_body_verifier", "path": "verify.cpp", "language": "cpp", "defines": ["NDEBUG"]}]
+}

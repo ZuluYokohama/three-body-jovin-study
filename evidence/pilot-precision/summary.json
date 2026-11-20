@@ -1,0 +1,59 @@
+{
+  "cases": 96,
+  "stable": 86,
+  "matches": 83,
+  "agreement": 0.9651162790697675,
+  "unresolved_cpu_stable": 3,
+  "passed": true,
+  "gate": {
+    "minimum_stable": 48,
+    "agreement": 0.95
+  },
+  "policy": "Use a label only when the two strictest FP64 settings agree and both pass the original energy screen.",
+  "arithmetic": "IEEE FP64",
+  "tiers": {
+    "p12": {
+      "settings": {
+        "rtol": 1e-12,
+        "atol": 1e-14,
+        "hmax": 0.01
+      },
+      "evaluations": 61315788,
+      "wall_seconds": 9.873123700002907,
+      "resolved": 96,
+      "matches": 85,
+      "agreement": 0.9883720930232558
+    },
+    "p13": {
+      "settings": {
+        "rtol": 1e-13,
+        "atol": 1e-15,
+        "hmax": 0.005
+      },
+      "evaluations": 95201684,
+      "wall_seconds": 15.24584750001668,
+      "resolved": 96,
+      "matches": 84,
+      "agreement": 0.9767441860465116
+    },
+    "p14": {
+      "settings": {
+        "rtol": 3e-14,
+        "atol": 3e-16,
+        "hmax": 0.0025
+      },
+      "evaluations": 124899648,
+      "wall_seconds": 19.480513900023652,
+      "resolved": 96,
+      "matches": 84,
+      "agreement": 0.9767441860465116
+    }
+  },
+  "evaluations": 281417120,
+  "wall_seconds": 44.59948510004324,
+  "cpu_reference": {
+    "path": "[local path omitted]",
+    "sha256": "54af45d0c37058b8c198c5e826a31b104b4a74b9d5cf465f1ea64b77cb86707f"
+  },
+  "precomparison_gpu_predictions_sha256": "ca4f289b21d2d36420e862a2b352e48b370813655f10c9f7c48aa433b4c8e503"
+}

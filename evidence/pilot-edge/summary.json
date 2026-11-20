@@ -1,0 +1,290 @@
+{
+  "manifest_sha256": "2bbd9bece2c99443d942216f3c4a7dab1cef745a54bcd134a18943e4255b6ad1",
+  "jovin": {
+    "receipt_id": "20261119T215006Z-bd6dd43deb38",
+    "native_receipt_id": "20261119T215001Z-ceb0d5b4f637",
+    "ast_receipt_id": "20261119T214946Z-b51f56cd62e1",
+    "trace_receipt_id": "20261119T215003Z-b1f1dafd52bd",
+    "source_manifest_sha256": "1fef999224d4523511609129ec3a01d9d9eda39df05060d4acfc341b17c6189a",
+    "chain_head": "fc6dccf5cbd66c8349d29335de28bfa875eaabe660e326870fee8614a99febe2",
+    "chain_receipts": 12,
+    "evidence_sha256": {
+      "baseline.json": "71481085a741359c14a95bd9a9ef9644fb8352c1b1a0bb407b6d9d4acacb5ce1",
+      "ast.json": "62a33755556c59fe675b9863f63d10a0cee1330644d90281bde00181430416c2",
+      "trace.json": "53f8d12754fc52c07c7815e9993d594282969f29bb826b1d89167ca913d12388",
+      "project.json": "33a5c59a23b0ba2ab2f98a4f14d0d651610e51280e40f492ed4b5ec86b3a47e4",
+      "chain.json": "b65a1f88ba2c15049eba24cb9dae26437a08ca7c21df67bc147b40dc2ae28040",
+      "scope.json": "f26463e2fd7ddb95ecd3ade2cd08dc348bec28e66a69df134dd8f80e0762ae59"
+    }
+  },
+  "horizon": 50.0,
+  "fine_grid": 256,
+  "gpu_state_gate": {
+    "passed": true,
+    "fixtures": 4,
+    "max_normalized_error": 2.656208586415687e-14
+  },
+  "cpu_audit": {
+    "cases": 96,
+    "stable": 86,
+    "matches": 78,
+    "agreement": 0.9069767441860465
+  },
+  "reference_stable_fraction": 0.9154815673828125,
+  "reference_labels": {
+    "Horizon reached": 364,
+    "Body 1 escapes": 1443,
+    "Body 2 escapes": 1417,
+    "Body 3 escapes": 343,
+    "Close approach": 56430,
+    "Unresolved": 5539
+  },
+  "comparison": [
+    {
+      "depth": 0,
+      "adaptive": {
+        "evaluations": 27711536,
+        "trajectories": 1024,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9718819274297048,
+          "agreement": 0.9089621147724053
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9449001426533523,
+          "agreement": 0.49375891583452214
+        }
+      },
+      "uniform": {
+        "evaluations": 27711536,
+        "trajectories": 1024,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9718819274297048,
+          "agreement": 0.9089621147724053
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9449001426533523,
+          "agreement": 0.49375891583452214
+        }
+      }
+    },
+    {
+      "depth": 1,
+      "adaptive": {
+        "evaluations": 118625920,
+        "trajectories": 2796,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9733986699334967,
+          "agreement": 0.925379602313449
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9056704707560628,
+          "agreement": 0.5087375178316691
+        }
+      },
+      "uniform": {
+        "evaluations": 118337944,
+        "trajectories": 4148,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9728153074320383,
+          "agreement": 0.9183625847959065
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9078102710413695,
+          "agreement": 0.4851997146932953
+        }
+      }
+    },
+    {
+      "depth": 2,
+      "adaptive": {
+        "evaluations": 435214604,
+        "trajectories": 7728,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9826324649565812,
+          "agreement": 0.9376635498441589
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9167261055634808,
+          "agreement": 0.5301355206847361
+        }
+      },
+      "uniform": {
+        "evaluations": 434895436,
+        "trajectories": 15424,
+        "all": {
+          "count": 59997,
+          "coverage": 0.9759154624397887,
+          "agreement": 0.924779572311949
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9072753209700428,
+          "agreement": 0.5001783166904422
+        }
+      }
+    },
+    {
+      "depth": 3,
+      "adaptive": {
+        "evaluations": 1568242664,
+        "trajectories": 22588,
+        "all": {
+          "count": 59997,
+          "coverage": 1.0,
+          "agreement": 0.9904495224761238
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 1.0,
+          "agreement": 0.8987161198288159
+        }
+      },
+      "uniform": {
+        "evaluations": 1568211264,
+        "trajectories": 56244,
+        "all": {
+          "count": 59997,
+          "coverage": 0.988982782472457,
+          "agreement": 0.9645982299114956
+        },
+        "boundary": {
+          "count": 5608,
+          "coverage": 0.9547075606276747,
+          "agreement": 0.7640870185449358
+        }
+      }
+    }
+  ],
+  "uniform_complete_levels": [
+    {
+      "depth": 0,
+      "evaluations": 27711536,
+      "seconds": 2.03136209998047,
+      "all": {
+        "count": 59997,
+        "coverage": 0.9718819274297048,
+        "agreement": 0.9089621147724053
+      },
+      "boundary": {
+        "count": 5608,
+        "coverage": 0.9449001426533523,
+        "agreement": 0.49375891583452214
+      }
+    },
+    {
+      "depth": 1,
+      "evaluations": 142014268,
+      "seconds": 4.755911899963394,
+      "all": {
+        "count": 59997,
+        "coverage": 0.9709652149274131,
+        "agreement": 0.9199626647999066
+      },
+      "boundary": {
+        "count": 5608,
+        "coverage": 0.8990727532097005,
+        "agreement": 0.4894793152639087
+      }
+    },
+    {
+      "depth": 2,
+      "evaluations": 613043200,
+      "seconds": 9.183386699965922,
+      "all": {
+        "count": 59997,
+        "coverage": 0.9759321299398304,
+        "agreement": 0.9258462923146157
+      },
+      "boundary": {
+        "count": 5608,
+        "coverage": 0.8976462196861626,
+        "agreement": 0.5008915834522111
+      }
+    },
+    {
+      "depth": 3,
+      "evaluations": 2453152688,
+      "seconds": 19.082920499960892,
+      "all": {
+        "count": 59997,
+        "coverage": 1.0,
+        "agreement": 1.0
+      },
+      "boundary": {
+        "count": 5608,
+        "coverage": 1.0,
+        "agreement": 1.0
+      }
+    }
+  ],
+  "adaptive_seconds": 14.510956499987515,
+  "uniform_matched_seconds": 18.665603299974464,
+  "interior_probes": {
+    "all_probes": 1024,
+    "stable_interior": {
+      "count": 764,
+      "coverage": 1.0,
+      "agreement": 0.9895287958115183
+    },
+    "missed_region_rate": 0.010471204188481686
+  },
+  "filter": {
+    "rows": 65536,
+    "repeat": 9,
+    "device": 0,
+    "device_name": "NVIDIA GeForce RTX 5070",
+    "compute_capability": "12.0",
+    "backend": "both",
+    "agreement": true,
+    "setup_ms": 15.0815,
+    "refine_count": 18137,
+    "fused_ms": {
+      "min": 0.115,
+      "median": 0.1679,
+      "p95": 0.3258
+    },
+    "tensor_ms": {
+      "min": 0.1692,
+      "median": 0.2042,
+      "p95": 0.2255
+    }
+  },
+  "tensor_profile": {
+    "status": "counter_permission_denied",
+    "report": "nsight_tensor.csv",
+    "systems": {
+      "status": "tensor_kernel_observed",
+      "trace": "tensor_trace.nsys-rep",
+      "kernel_summary": "tensor_kernels_cuda_gpu_kern_sum.csv",
+      "tensor_kernels": [
+        {
+          "Time (%)": "45.8",
+          "Total Time (ns)": "89376",
+          "Instances": "4",
+          "Avg (ns)": "22344.0",
+          "Med (ns)": "22304.0",
+          "Min (ns)": "22208",
+          "Max (ns)": "22560",
+          "StdDev (ns)": "153.2",
+          "Name": "void cutlass::Kernel2<cutlass_80_tensorop_s1688gemm_64x64_16x6_nn_align4>(T1::Params)"
+        }
+      ]
+    }
+  },
+  "decision": {
+    "work_savings_gate": "not met",
+    "cpu_audit_gate": false,
+    "adaptive_target_evaluations": null,
+    "uniform_target_evaluations": 2453152688
+  }
+}

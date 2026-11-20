@@ -1,0 +1,9 @@
+{
+  "format": "jovin-harness.trace-plan.v1",
+  "objective": "Observe the independent CPU verifier's native build and synthetic fixture run.",
+  "scope": "native_build_and_checks",
+  "native_plan": "native_plan.json",
+  "ast_plan": "native_ast.json",
+  "required_events": ["process", "network"],
+  "identity_bindings": [{"artifact": "build/three_body_verify", "ast_contexts": ["three_body_verifier"]}]
+}

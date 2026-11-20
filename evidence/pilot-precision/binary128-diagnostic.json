@@ -1,0 +1,92 @@
+{
+  "label_use": "Out-of-band numerical diagnostic. Does not change either original score.",
+  "selection": "Two shortest tight-GPU event times among archived label disagreements. Ties by row then column.",
+  "audit_sha256": "acdafa10d49aa914de87ab2c4ddb089ca0044cee9bc1c8c534f1a8b7fe154fd2",
+  "source_sha256": "f0bf0ecedf469efd52cb145540d210d62dd7262539a66380d67e1b20fccb0164",
+  "executable_sha256": "996bb133bc1e1fc42abd118f40b7e2937874664194ec5041fcddecfc02086ec4",
+  "analytic_check": {
+    "fixture": "equal_mass_equilateral",
+    "state_error": 2.4899264e-25,
+    "energy_drift": 6.4878792e-27,
+    "steps": 92
+  },
+  "horizon": 50,
+  "checks": [
+    {
+      "i": 185,
+      "j": 136,
+      "x": "0.6796875",
+      "y": "0.36992187499999996",
+      "gpu_standard": 4,
+      "gpu_tight": 2,
+      "gpu_tight_time": 13.632612026530468,
+      "local_tolerance": "1e-20",
+      "exit_code": 0,
+      "wall_seconds": 1.6546475,
+      "result": {
+        "precision_bits": 113,
+        "label": 2,
+        "time": 13.66005661305159,
+        "energy_drift": 5.01867688e-21,
+        "steps": 8178
+      }
+    },
+    {
+      "i": 185,
+      "j": 136,
+      "x": "0.6796875",
+      "y": "0.36992187499999996",
+      "gpu_standard": 4,
+      "gpu_tight": 2,
+      "gpu_tight_time": 13.632612026530468,
+      "local_tolerance": "1e-24",
+      "exit_code": 0,
+      "wall_seconds": 3.9887093,
+      "result": {
+        "precision_bits": 113,
+        "label": 2,
+        "time": 13.660056613051697,
+        "energy_drift": 3.38919485e-25,
+        "steps": 17807
+      }
+    },
+    {
+      "i": 70,
+      "j": 136,
+      "x": "0.3203125",
+      "y": "0.36992187499999996",
+      "gpu_standard": 2,
+      "gpu_tight": 1,
+      "gpu_tight_time": 13.640140946083696,
+      "local_tolerance": "1e-20",
+      "exit_code": 0,
+      "wall_seconds": 1.6631568,
+      "result": {
+        "precision_bits": 113,
+        "label": 1,
+        "time": 13.66005661305159,
+        "energy_drift": 5.01867737e-21,
+        "steps": 8178
+      }
+    },
+    {
+      "i": 70,
+      "j": 136,
+      "x": "0.3203125",
+      "y": "0.36992187499999996",
+      "gpu_standard": 2,
+      "gpu_tight": 1,
+      "gpu_tight_time": 13.640140946083696,
+      "local_tolerance": "1e-24",
+      "exit_code": 0,
+      "wall_seconds": 3.9763636,
+      "result": {
+        "precision_bits": 113,
+        "label": 1,
+        "time": 13.660056613051697,
+        "energy_drift": 3.3836758e-25,
+        "steps": 17807
+      }
+    }
+  ]
+}

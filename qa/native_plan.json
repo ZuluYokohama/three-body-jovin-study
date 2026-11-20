@@ -1,0 +1,10 @@
+{
+  "format": "jovin-harness.native-plan.v1",
+  "objective": "Verify the relative and Levi-Civita charts against the Newtonian flow, the rotating equilateral orbit, and the analytic isolated binary crossing.",
+  "configure_args": ["-GNinja", "-DCMAKE_BUILD_TYPE=Release"],
+  "artifacts": ["build/three_body_verify"],
+  "checks": [
+    {"id": "projection_parity", "argv": ["{project}/build/three_body_verify"], "expected_exit": 0}
+  ],
+  "gate_checks": {"native_cpu": ["projection_parity"]}
+}

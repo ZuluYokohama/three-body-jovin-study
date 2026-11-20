@@ -1,0 +1,67 @@
+{
+  "base": 32,
+  "levels": 3,
+  "horizon": 50.0,
+  "domain": [
+    0.1,
+    0.9,
+    0.05,
+    0.65
+  ],
+  "standard": {
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "hmax": 0.04
+  },
+  "tight": {
+    "rtol": 1e-11,
+    "atol": 1e-13,
+    "hmax": 0.02
+  },
+  "device_index": 0,
+  "gpus": [
+    "0, NVIDIA GeForce RTX 5070, [device identifier omitted], 617.42, 12227 MiB",
+    "1, NVIDIA GeForce GTX 1660 Ti, [device identifier omitted], 617.42, 6144 MiB"
+  ],
+  "cpu_sample": 96,
+  "target": {
+    "agreement": 0.98,
+    "boundary_agreement": 0.9,
+    "coverage": 0.95
+  },
+  "source_sha256": {
+    "study.py": "b78adfcef2a683ff5e01b974aa758c88069d61d9470826d45c0e6450d8974ce8",
+    "reference.py": "174ef24623dfdd34fe88fe413fc90bafe6ecdca0cd1c734be35a81e032e2a83c",
+    "build_cuda.ps1": "f54a9f17fd228f0d59eb4f604422169f28ec78136576312f3eafb369b004f697",
+    "cuda/solver.cu": "91aac53ecbf898620a62061f2461478585f9c2cc653d97616ba61a220ed68aa7",
+    "cuda/filter.cu": "733ad89b7213be510bd03cef70d94a187fbce3b5f04b39d120ff855958ccdcd1",
+    ".jovin/run_cpu.ps1": "c98cf5d6f90f40d6eaedaf9a7e2e22e87ce2643be3cfb98611354389f7f6bcf6",
+    "qa/CMakeLists.txt": "9bff93483eb4bcdc5e290d49404f88ade35c78f7909063223ea8d5cbff5f29d2",
+    "qa/native_ast.json": "e4938015459909d15433f43c887b4900cd8db3f712fa56929d0c4d3e5ee61ba1",
+    "qa/native_plan.json": "7ee3ed9a597498715d08451d1811f630b63c9dfdc1b9ea36aac50b82f171629d",
+    "qa/native_trace.json": "5402042b1ec7cc3f2f8c2f9aae96dab24e0755caae5dec75b7d5bf6fb0547c04",
+    "qa/verify.cpp": "a551b1a6b0518810c3e17c76ce750ad778b90a882a951836541cb8f765044c0e",
+    ".jovin/project.json": "b85dca66f117665060bae17b51c46f4690261bc2fc52f4cef9b6bacc24100337"
+  },
+  "binary_sha256": {
+    "solver.exe": "f69dd1cace0c0b42ff7f060d85dbb9d7395466b0378a15bded155fc04fa5e17c",
+    "filter.exe": "e29c142e0d51bf9c3895993a09602a9b2bb7eb80db21dcb5269dfc380daddcee"
+  },
+  "jovin": {
+    "receipt_id": "20261119T215006Z-bd6dd43deb38",
+    "native_receipt_id": "20261119T215001Z-ceb0d5b4f637",
+    "ast_receipt_id": "20261119T214946Z-b51f56cd62e1",
+    "trace_receipt_id": "20261119T215003Z-b1f1dafd52bd",
+    "source_manifest_sha256": "1fef999224d4523511609129ec3a01d9d9eda39df05060d4acfc341b17c6189a",
+    "chain_head": "fc6dccf5cbd66c8349d29335de28bfa875eaabe660e326870fee8614a99febe2",
+    "chain_receipts": 12,
+    "evidence_sha256": {
+      "baseline.json": "71481085a741359c14a95bd9a9ef9644fb8352c1b1a0bb407b6d9d4acacb5ce1",
+      "ast.json": "62a33755556c59fe675b9863f63d10a0cee1330644d90281bde00181430416c2",
+      "trace.json": "53f8d12754fc52c07c7815e9993d594282969f29bb826b1d89167ca913d12388",
+      "project.json": "33a5c59a23b0ba2ab2f98a4f14d0d651610e51280e40f492ed4b5ec86b3a47e4",
+      "chain.json": "b65a1f88ba2c15049eba24cb9dae26437a08ca7c21df67bc147b40dc2ae28040",
+      "scope.json": "f26463e2fd7ddb95ecd3ade2cd08dc348bec28e66a69df134dd8f80e0762ae59"
+    }
+  }
+}

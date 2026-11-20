@@ -1,0 +1,43 @@
+{
+  "cohort_sha256": "fcbfa7c47e8c3819abe29e5a0e74fa39657842a0aa324322c92dc5872e161301",
+  "source_sha256": "9764c9e1d624bd62a16fc0ed029618a312fb78d99ea69652fb9b1b96817980dd",
+  "runner_sha256": "051897aece007f5b7a641366d1a32380729ed5406aae6ffcedb3a8e83355f7c6",
+  "points": 1873,
+  "horizon": "50",
+  "cutoff": "0.001",
+  "max_relative_energy_drift": 1e-12,
+  "watchdog_seconds_per_solve": 45,
+  "binary64_input_roundtrip": "hexadecimal float -> strtod -> __float128",
+  "tiers": {
+    "standard": {
+      "tolerance": "1e-20",
+      "physical_cap_factor": "1"
+    },
+    "tight": {
+      "tolerance": "1e-24",
+      "physical_cap_factor": "0.5"
+    }
+  },
+  "binary_sha256": "aa0780e10d5e0d5853641c7a83a15b282100879e220045a5d70f22da0cbc5bcd",
+  "compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "compile_flags": [
+    "-std=gnu++17",
+    "-O3",
+    "-Wall",
+    "-Wextra",
+    "-lquadmath"
+  ],
+  "compiler_stderr": "",
+  "fixture": {
+    "fixture": "equal_mass_equilateral",
+    "passed": true,
+    "precision_bits": 113,
+    "state_error": 2.4899264e-25,
+    "energy_drift": 6.4878792e-27,
+    "steps": 92,
+    "interior_grazing_detected": true,
+    "exterior_grazing_clear": true,
+    "freefall_grazing_inside_label": 4,
+    "freefall_grazing_outside_label": 0
+  }
+}

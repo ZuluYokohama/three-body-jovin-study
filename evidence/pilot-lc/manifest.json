@@ -1,0 +1,92 @@
+{
+  "base": 32,
+  "levels": 3,
+  "horizon": 50.0,
+  "domain": [
+    0.1,
+    0.9,
+    0.05,
+    0.65
+  ],
+  "standard": {
+    "rtol": 1e-09,
+    "atol": 1e-11,
+    "hmax": 0.04
+  },
+  "tight": {
+    "rtol": 1e-11,
+    "atol": 1e-13,
+    "hmax": 0.02
+  },
+  "device_index": 0,
+  "gpus": [
+    "0, NVIDIA GeForce RTX 5070, [device identifier omitted], 617.42, 12227 MiB",
+    "1, NVIDIA GeForce GTX 1660 Ti, [device identifier omitted], 617.42, 6144 MiB"
+  ],
+  "cpu_sample": 96,
+  "target": {
+    "agreement": 0.98,
+    "boundary_agreement": 0.9,
+    "coverage": 0.95
+  },
+  "cpu_gate": {
+    "minimum_agreement": 0.95,
+    "minimum_stable_cases": 48
+  },
+  "coordinates": "levi-civita",
+  "close_separation": 0.001,
+  "source_sha256": {
+    "study.py": "0d0b1ecb653bde070e2f03aa02de67b2b7f9906f5ab37bab1908df381534bd82",
+    "reference.py": "174ef24623dfdd34fe88fe413fc90bafe6ecdca0cd1c734be35a81e032e2a83c",
+    "build_cuda.ps1": "f54a9f17fd228f0d59eb4f604422169f28ec78136576312f3eafb369b004f697",
+    "cuda/solver.cu": "3e44fb26fbb78b711e8f291115a204d8e3412d194283f5318861e3a717f6dd5c",
+    "cuda/filter.cu": "733ad89b7213be510bd03cef70d94a187fbce3b5f04b39d120ff855958ccdcd1",
+    ".jovin/run_cpu.ps1": "247078fe4bde9430ac009c34181a0dab00a65976e2060ee1bb4679d26355c187",
+    "cuda/levi_civita.hpp": "ec6ff5b7854318dd71fa073c6d65c0bd1a9d1a5b3d8f8830e5a4e4a580430cfe",
+    "lc_checks.py": "eb286e930a5e57b83948949c4378d52ab49ce24623127d0055b8a877e7b99593",
+    "qa/CMakeLists.txt": "4937a916d6185fa2715e5f8798ac60bbeb63ab2614fd0905b43b1eff87bbd397",
+    "qa/native_ast.json": "9cf7785bc7f3d92fa5c30e5dd3c7a3a0695f33634640ebd6439736b242ffff41",
+    "qa/native_plan.json": "43b955d8748abd066d5b2b33048be23e9409e124b5c83b6d7d8a68303f7b7e1b",
+    "qa/native_trace.json": "5402042b1ec7cc3f2f8c2f9aae96dab24e0755caae5dec75b7d5bf6fb0547c04",
+    "qa/verify.cpp": "1d28a497e58f05888004f0cd3c682b22f1bbdd19882427f698e7aeb8d4bd9caa",
+    ".jovin/project.json": "6c36c3f6eb10ae7c8b736977cb030051f2a07984e814190d37368226eaea89b3"
+  },
+  "binary_sha256": {
+    "solver.exe": "d146e760990908fb65ed6272c5315660927155a5cf65ed0b80cfcafa67439f14",
+    "filter.exe": "d4ba470998b706c48d3bc41bc60794b1927e68919b798bc73a163ac314383e98"
+  },
+  "jovin": {
+    "receipt_id": "20261119T220403Z-d278d25ad982",
+    "native_receipt_id": "20261119T220358Z-6b2dc0b74716",
+    "ast_receipt_id": "20261119T220341Z-0e88cd83f509",
+    "trace_receipt_id": "20261119T220359Z-e53016983b7a",
+    "source_manifest_sha256": "b91bbb5e119bf24669c72b55118268df84bae337d8a69dece533e7339f3e5978",
+    "chain_head": "51adb8d049d25de78092525c0502a2e2a1d776838a112d2d0754eb37d8f49e23",
+    "chain_receipts": 12,
+    "evidence_sha256": {
+      "baseline.json": "17076ee117d8cb4f56b52c3a606a9fb3e9d8ef8a4714ff6b273d174e168c7f99",
+      "ast.json": "7df56d6275694ec77f4613b9517842857cae815ad6b0bc78bb2f25bfb6564217",
+      "trace.json": "a606bd28c1f8601bedce8ccf7f025ae0a8f6fbdf48ee9eb2cc2c1be9496b6392",
+      "project.json": "064b4f5e7bee11cada59239c64e343243112dfe594da47106f18122c93e8ff08",
+      "chain.json": "b23d2a8a413ffb0b1416bb69ffd0091c54da7944c6f090d2d7a9f0456c1badd2",
+      "scope.json": "2e646b848c9a6e98c7361a216c285e385c46a111d695ee721e17d060f1eea149"
+    }
+  },
+  "baseline": {
+    "path": "[local path omitted]",
+    "sha256": {
+      "manifest.json": "2bbd9bece2c99443d942216f3c4a7dab1cef745a54bcd134a18943e4255b6ad1",
+      "summary.json": "19c58ed300a961dbbed1a3b75fbb8a33cc3b174202600fe90b8e4cbd7d4fbd4c",
+      "cpu_audit.csv": "1cb5d682691bc05fc2e5fbdfd3b873f4281a458c1576564dd02f28c49029ddbe",
+      "outcome_grids.npz": "1937844be55b6d216a489bae52ec424e9a2116666897cd6428744652e62de340",
+      "raw/uniform_3.out.csv": "cea2b51625d2cb5da44db26db6eb42f9b9f5609bec95f47b808b71a066b7563b",
+      "raw/reference_tight.out.csv": "c4c8506ffeea7280e4b84acc2515964395250129a22fe0af1585270a3970f861"
+    }
+  },
+  "chart": {
+    "entry_radius": 0.05,
+    "entry_hierarchy": 4.0,
+    "exit_radius": 0.075,
+    "exit_hierarchy": 2.0
+  }
+}

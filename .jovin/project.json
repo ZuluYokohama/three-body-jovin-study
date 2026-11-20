@@ -1,0 +1,12 @@
+{
+  "format": "jovin-harness.project.v1",
+  "project_id": "three-body-levi-civita-cpu",
+  "objective": "Bind the production Levi-Civita equations and independent CPU projection and collision checks to this source snapshot.",
+  "exclude": [".jovin"],
+  "partitions": [
+    {"id": "levi_civita_math", "language": "cpp", "paths": ["cuda/levi_civita.hpp"], "depends_on": []},
+    {"id": "physics_verification", "language": "cpp", "paths": ["verify.cpp"], "depends_on": ["levi_civita_math"]},
+    {"id": "build_and_protocol", "language": "build", "paths": ["CMakeLists.txt", "native_plan.json", "native_ast.json", "native_trace.json"], "depends_on": ["physics_verification"]}
+  ],
+  "required_gates": ["inventory", "native_ast", "native_cpu", "process_trace", "network_trace"]
+}
